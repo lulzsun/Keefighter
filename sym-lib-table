@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name kbd)(type Legacy)(uri "F:/Documents/mpress mixbox/kbd/kicad-symbols/kbd.lib")(options "")(descr ""))
+  (lib (name keefighter-rescue)(type Legacy)(uri ${KIPRJMOD}/keefighter-rescue.lib)(options "")(descr ""))
+)

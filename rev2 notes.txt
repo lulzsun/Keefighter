@@ -1,0 +1,11 @@
+FIRST MOVE BOTTOM ROW 4 BUTTONS UP 8y, RIGHT 2x
+THEN MOVE ALL 8 BUTTONS UP 3y
+
+top panel x2 (4mm)
+spacer panel x4 (8mm)
+pcb (1.6mm)
+spacer panel (2mm)
+bottom panel (2mm)
+
+make sure top panels have the control panel button holes
+enlarge 8 button clip holes for better tolerance

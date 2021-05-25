@@ -1,0 +1,884 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keefighter-rescue:SW_PUSH-kbd SW0
+U 1 1 60296AAA
+P 5650 2150
+F 0 "SW0" H 5650 2405 50  0000 C CNN
+F 1 "SW_PUSH" H 5650 2314 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5650 2150 50  0001 C CNN
+F 3 "" H 5650 2150 50  0000 C CNN
+	1    5650 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keefighter-rescue:ProMicro-kbd U1
+U 1 1 602971A9
+P 2550 2300
+F 0 "U1" H 2550 3137 60  0000 C CNN
+F 1 "ProMicro" H 2550 3031 60  0000 C CNN
+F 2 "pro micro:SPARKFUN_PRO_MICRO" H 2650 1250 60  0001 C CNN
+F 3 "" H 2650 1250 60  0000 C CNN
+	1    2550 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keefighter-rescue:SW_PUSH-kbd SW1
+U 1 1 604737AE
+P 5650 2850
+F 0 "SW1" H 5650 3105 50  0000 C CNN
+F 1 "SW_PUSH" H 5650 3014 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 5650 2850 50  0001 C CNN
+F 3 "" H 5650 2850 50  0000 C CNN
+	1    5650 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2150 5950 2850
+$Comp
+L keefighter-rescue:SW_PUSH-kbd SW2
+U 1 1 604793F5
+P 5650 3550
+F 0 "SW2" H 5650 3805 50  0000 C CNN
+F 1 "SW_PUSH" H 5650 3714 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 5650 3550 50  0001 C CNN
+F 3 "" H 5650 3550 50  0000 C CNN
+	1    5650 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2850 5950 3550
+$Comp
+L keefighter-rescue:SW_PUSH-kbd SW3
+U 1 1 60480414
+P 6550 2150
+F 0 "SW3" H 6550 2405 50  0000 C CNN
+F 1 "SW_PUSH" H 6550 2314 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 6550 2150 50  0001 C CNN
+F 3 "" H 6550 2150 50  0000 C CNN
+	1    6550 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D3
+U 1 1 6048041A
+P 6250 2300
+F 0 "D3" H 6250 2516 50  0000 C CNN
+F 1 "1N4148" H 6250 2425 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6250 2125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6250 2300 50  0001 C CNN
+	1    6250 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keefighter-rescue:SW_PUSH-kbd SW4
+U 1 1 60480420
+P 6550 2850
+F 0 "SW4" H 6550 3105 50  0000 C CNN
+F 1 "SW_PUSH" H 6550 3014 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 6550 2850 50  0001 C CNN
+F 3 "" H 6550 2850 50  0000 C CNN
+	1    6550 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D4
+U 1 1 60480426
+P 6250 3000
+F 0 "D4" H 6250 3216 50  0000 C CNN
+F 1 "1N4148" H 6250 3125 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6250 2825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6250 3000 50  0001 C CNN
+	1    6250 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 2150 6850 2850
+$Comp
+L keefighter-rescue:SW_PUSH-kbd SW5
+U 1 1 6048042D
+P 6550 3550
+F 0 "SW5" H 6550 3805 50  0000 C CNN
+F 1 "SW_PUSH" H 6550 3714 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 6550 3550 50  0001 C CNN
+F 3 "" H 6550 3550 50  0000 C CNN
+	1    6550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D5
+U 1 1 60480433
+P 6250 3700
+F 0 "D5" H 6250 3916 50  0000 C CNN
+F 1 "1N4148" H 6250 3825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6250 3525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6250 3700 50  0001 C CNN
+	1    6250 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 2850 6850 3550
+$Comp
+L keefighter-rescue:SW_PUSH-kbd SW6
+U 1 1 60483916
+P 7450 2150
+F 0 "SW6" H 7450 2405 50  0000 C CNN
+F 1 "SW_PUSH" H 7450 2314 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 7450 2150 50  0001 C CNN
+F 3 "" H 7450 2150 50  0000 C CNN
+	1    7450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D6
+U 1 1 6048391C
+P 7150 2300
+F 0 "D6" H 7150 2516 50  0000 C CNN
+F 1 "1N4148" H 7150 2425 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7150 2125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7150 2300 50  0001 C CNN
+	1    7150 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keefighter-rescue:SW_PUSH-kbd SW7
+U 1 1 60483922
+P 7450 2850
+F 0 "SW7" H 7450 3105 50  0000 C CNN
+F 1 "SW_PUSH" H 7450 3014 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 7450 2850 50  0001 C CNN
+F 3 "" H 7450 2850 50  0000 C CNN
+	1    7450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D7
+U 1 1 60483928
+P 7150 3000
+F 0 "D7" H 7150 3216 50  0000 C CNN
+F 1 "1N4148" H 7150 3125 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7150 2825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7150 3000 50  0001 C CNN
+	1    7150 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7750 2150 7750 2850
+$Comp
+L keefighter-rescue:SW_PUSH-kbd SW8
+U 1 1 6048392F
+P 7450 3550
+F 0 "SW8" H 7450 3805 50  0000 C CNN
+F 1 "SW_PUSH" H 7450 3714 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 7450 3550 50  0001 C CNN
+F 3 "" H 7450 3550 50  0000 C CNN
+	1    7450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D8
+U 1 1 60483935
+P 7150 3700
+F 0 "D8" H 7150 3916 50  0000 C CNN
+F 1 "1N4148" H 7150 3825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7150 3525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7150 3700 50  0001 C CNN
+	1    7150 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7750 2850 7750 3550
+$Comp
+L Diode:1N4148 D9
+U 1 1 604847FE
+P 8050 2300
+F 0 "D9" H 8050 2516 50  0000 C CNN
+F 1 "1N4148" H 8050 2425 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8050 2125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8050 2300 50  0001 C CNN
+	1    8050 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keefighter-rescue:SW_PUSH-kbd SW10
+U 1 1 60484804
+P 8350 2850
+F 0 "SW10" H 8350 3105 50  0000 C CNN
+F 1 "SW_PUSH" H 8350 3014 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 8350 2850 50  0001 C CNN
+F 3 "" H 8350 2850 50  0000 C CNN
+	1    8350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D10
+U 1 1 6048480A
+P 8050 3000
+F 0 "D10" H 8050 3216 50  0000 C CNN
+F 1 "1N4148" H 8050 3125 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8050 2825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8050 3000 50  0001 C CNN
+	1    8050 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8650 2150 8650 2850
+$Comp
+L keefighter-rescue:SW_PUSH-kbd SW11
+U 1 1 60484811
+P 8350 3550
+F 0 "SW11" H 8350 3805 50  0000 C CNN
+F 1 "SW_PUSH" H 8350 3714 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 8350 3550 50  0001 C CNN
+F 3 "" H 8350 3550 50  0000 C CNN
+	1    8350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D11
+U 1 1 60484817
+P 8050 3700
+F 0 "D11" H 8050 3916 50  0000 C CNN
+F 1 "1N4148" H 8050 3825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8050 3525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8050 3700 50  0001 C CNN
+	1    8050 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8650 2850 8650 3550
+$Comp
+L keefighter-rescue:SW_PUSH-kbd SW12
+U 1 1 60487D2E
+P 9250 2150
+F 0 "SW12" H 9250 2405 50  0000 C CNN
+F 1 "SW_PUSH" H 9250 2314 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 9250 2150 50  0001 C CNN
+F 3 "" H 9250 2150 50  0000 C CNN
+	1    9250 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D12
+U 1 1 60487D34
+P 8950 2300
+F 0 "D12" H 8950 2516 50  0000 C CNN
+F 1 "1N4148" H 8950 2425 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8950 2125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8950 2300 50  0001 C CNN
+	1    8950 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keefighter-rescue:SW_PUSH-kbd SW13
+U 1 1 60487D3A
+P 9250 2850
+F 0 "SW13" H 9250 3105 50  0000 C CNN
+F 1 "SW_PUSH" H 9250 3014 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 9250 2850 50  0001 C CNN
+F 3 "" H 9250 2850 50  0000 C CNN
+	1    9250 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D13
+U 1 1 60487D40
+P 8950 3000
+F 0 "D13" H 8950 3216 50  0000 C CNN
+F 1 "1N4148" H 8950 3125 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8950 2825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8950 3000 50  0001 C CNN
+	1    8950 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 2150 9550 2850
+$Comp
+L keefighter-rescue:SW_PUSH-kbd SW14
+U 1 1 60487D47
+P 9250 3550
+F 0 "SW14" H 9250 3805 50  0000 C CNN
+F 1 "SW_PUSH" H 9250 3714 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 9250 3550 50  0001 C CNN
+F 3 "" H 9250 3550 50  0000 C CNN
+	1    9250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D14
+U 1 1 60487D4D
+P 8950 3700
+F 0 "D14" H 8950 3916 50  0000 C CNN
+F 1 "1N4148" H 8950 3825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8950 3525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8950 3700 50  0001 C CNN
+	1    8950 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 2850 9550 3550
+$Comp
+L keefighter-rescue:SW_PUSH-kbd SW15
+U 1 1 6048962C
+P 10150 2150
+F 0 "SW15" H 10150 2405 50  0000 C CNN
+F 1 "SW_PUSH" H 10150 2314 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 10150 2150 50  0001 C CNN
+F 3 "" H 10150 2150 50  0000 C CNN
+	1    10150 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D15
+U 1 1 60489632
+P 9850 2300
+F 0 "D15" H 9850 2516 50  0000 C CNN
+F 1 "1N4148" H 9850 2425 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9850 2125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9850 2300 50  0001 C CNN
+	1    9850 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keefighter-rescue:SW_PUSH-kbd SW16
+U 1 1 60489638
+P 10150 2850
+F 0 "SW16" H 10150 3105 50  0000 C CNN
+F 1 "SW_PUSH" H 10150 3014 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 10150 2850 50  0001 C CNN
+F 3 "" H 10150 2850 50  0000 C CNN
+	1    10150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D16
+U 1 1 6048963E
+P 9850 3000
+F 0 "D16" H 9850 3216 50  0000 C CNN
+F 1 "1N4148" H 9850 3125 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9850 2825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9850 3000 50  0001 C CNN
+	1    9850 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10450 2150 10450 2850
+$Comp
+L keefighter-rescue:SW_PUSH-kbd SW17
+U 1 1 60489645
+P 10150 3550
+F 0 "SW17" H 10150 3805 50  0000 C CNN
+F 1 "SW_PUSH" H 10150 3714 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 10150 3550 50  0001 C CNN
+F 3 "" H 10150 3550 50  0000 C CNN
+	1    10150 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D17
+U 1 1 6048964B
+P 9850 3700
+F 0 "D17" H 9850 3916 50  0000 C CNN
+F 1 "1N4148" H 9850 3825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9850 3525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9850 3700 50  0001 C CNN
+	1    9850 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10450 2850 10450 3550
+Wire Wire Line
+	5350 2450 6250 2450
+Wire Wire Line
+	6250 2450 7150 2450
+Connection ~ 6250 2450
+Wire Wire Line
+	7150 2450 8050 2450
+Connection ~ 7150 2450
+Wire Wire Line
+	8050 2450 8950 2450
+Connection ~ 8050 2450
+Wire Wire Line
+	8950 2450 9850 2450
+Connection ~ 8950 2450
+Wire Wire Line
+	9850 3150 8950 3150
+Connection ~ 6250 3150
+Wire Wire Line
+	6250 3150 5350 3150
+Connection ~ 7150 3150
+Wire Wire Line
+	7150 3150 6250 3150
+Connection ~ 8050 3150
+Wire Wire Line
+	8050 3150 7150 3150
+Connection ~ 8950 3150
+Wire Wire Line
+	8950 3150 8050 3150
+Wire Wire Line
+	5350 3850 6250 3850
+Connection ~ 6250 3850
+Wire Wire Line
+	6250 3850 7150 3850
+Connection ~ 7150 3850
+Wire Wire Line
+	7150 3850 8050 3850
+Connection ~ 8050 3850
+Wire Wire Line
+	8050 3850 8950 3850
+Connection ~ 8950 3850
+Wire Wire Line
+	8950 3850 9850 3850
+Text GLabel 3250 2650 2    50   Input ~ 0
+row0
+Text GLabel 3250 2550 2    50   Input ~ 0
+row1
+Text GLabel 3250 2450 2    50   Input ~ 0
+row2
+Text GLabel 1850 2550 0    50   Input ~ 0
+col1
+Text GLabel 1850 2650 0    50   Input ~ 0
+col2
+Text GLabel 1850 2750 0    50   Input ~ 0
+col3
+Text GLabel 3250 2850 2    50   Input ~ 0
+col4
+Text GLabel 4900 2450 0    50   Input ~ 0
+row0
+Text GLabel 4900 3150 0    50   Input ~ 0
+row1
+Text GLabel 4900 3850 0    50   Input ~ 0
+row2
+Text GLabel 5950 1550 1    50   Input ~ 0
+col0
+Wire Wire Line
+	5950 1550 5950 2150
+Connection ~ 5950 2150
+Text GLabel 6850 1550 1    50   Input ~ 0
+col1
+Wire Wire Line
+	6850 1550 6850 2150
+Text GLabel 7750 1550 1    50   Input ~ 0
+col2
+Wire Wire Line
+	7750 1550 7750 2150
+Text GLabel 8650 1550 1    50   Input ~ 0
+col3
+Wire Wire Line
+	8650 1550 8650 2150
+Text GLabel 9550 1550 1    50   Input ~ 0
+col4
+Wire Wire Line
+	9550 1550 9550 2150
+Text GLabel 10450 1550 1    50   Input ~ 0
+col5
+Wire Wire Line
+	10450 1550 10450 2150
+$Comp
+L keefighter-rescue:SK6812MINI-kbd LED11
+U 1 1 604E19B8
+P 1600 5350
+F 0 "LED11" H 1600 5612 51  0000 C CNN
+F 1 "SK6812MINI" H 1600 5547 16  0000 C CNN
+F 2 "kbd:YS-SK6812MINI-E" H 1600 5350 60  0001 C CNN
+F 3 "" H 1600 5350 60  0001 C CNN
+	1    1600 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keefighter-rescue:SK6812MINI-kbd LED10
+U 1 1 604E3EC3
+P 2350 5350
+F 0 "LED10" H 2350 5612 51  0000 C CNN
+F 1 "SK6812MINI" H 2350 5547 16  0000 C CNN
+F 2 "kbd:YS-SK6812MINI-E" H 2350 5350 60  0001 C CNN
+F 3 "" H 2350 5350 60  0001 C CNN
+	1    2350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keefighter-rescue:SK6812MINI-kbd LED9
+U 1 1 604E486B
+P 3100 5350
+F 0 "LED9" H 3100 5612 51  0000 C CNN
+F 1 "SK6812MINI" H 3100 5547 16  0000 C CNN
+F 2 "kbd:YS-SK6812MINI-E" H 3100 5350 60  0001 C CNN
+F 3 "" H 3100 5350 60  0001 C CNN
+	1    3100 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keefighter-rescue:SK6812MINI-kbd LED8
+U 1 1 604E9548
+P 3850 5350
+F 0 "LED8" H 3850 5612 51  0000 C CNN
+F 1 "SK6812MINI" H 3850 5547 16  0000 C CNN
+F 2 "kbd:YS-SK6812MINI-E" H 3850 5350 60  0001 C CNN
+F 3 "" H 3850 5350 60  0001 C CNN
+	1    3850 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keefighter-rescue:SK6812MINI-kbd LED7
+U 1 1 604E954E
+P 4600 5350
+F 0 "LED7" H 4600 5612 51  0000 C CNN
+F 1 "SK6812MINI" H 4600 5547 16  0000 C CNN
+F 2 "kbd:YS-SK6812MINI-E" H 4600 5350 60  0001 C CNN
+F 3 "" H 4600 5350 60  0001 C CNN
+	1    4600 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keefighter-rescue:SK6812MINI-kbd LED6
+U 1 1 604E9554
+P 5350 5350
+F 0 "LED6" H 5350 5612 51  0000 C CNN
+F 1 "SK6812MINI" H 5350 5547 16  0000 C CNN
+F 2 "kbd:YS-SK6812MINI-E" H 5350 5350 60  0001 C CNN
+F 3 "" H 5350 5350 60  0001 C CNN
+	1    5350 5350
+	1    0    0    -1  
+$EndComp
+Connection ~ 5950 2850
+Connection ~ 6850 2150
+Connection ~ 6850 2850
+Connection ~ 7750 2150
+Connection ~ 7750 2850
+Connection ~ 8650 2150
+Connection ~ 8650 2850
+Connection ~ 9550 2150
+Connection ~ 9550 2850
+Connection ~ 10450 2150
+Connection ~ 10450 2850
+$Comp
+L keefighter-rescue:SK6812MINI-kbd LED5
+U 1 1 6052623C
+P 6100 5350
+F 0 "LED5" H 6100 5612 51  0000 C CNN
+F 1 "SK6812MINI" H 6100 5547 16  0000 C CNN
+F 2 "kbd:YS-SK6812MINI-E" H 6100 5350 60  0001 C CNN
+F 3 "" H 6100 5350 60  0001 C CNN
+	1    6100 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keefighter-rescue:SK6812MINI-kbd LED4
+U 1 1 60526242
+P 6850 5350
+F 0 "LED4" H 6850 5612 51  0000 C CNN
+F 1 "SK6812MINI" H 6850 5547 16  0000 C CNN
+F 2 "kbd:YS-SK6812MINI-E" H 6850 5350 60  0001 C CNN
+F 3 "" H 6850 5350 60  0001 C CNN
+	1    6850 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keefighter-rescue:SK6812MINI-kbd LED3
+U 1 1 60526248
+P 7600 5350
+F 0 "LED3" H 7600 5612 51  0000 C CNN
+F 1 "SK6812MINI" H 7600 5547 16  0000 C CNN
+F 2 "kbd:YS-SK6812MINI-E" H 7600 5350 60  0001 C CNN
+F 3 "" H 7600 5350 60  0001 C CNN
+	1    7600 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keefighter-rescue:SK6812MINI-kbd LED2
+U 1 1 6052624E
+P 8350 5350
+F 0 "LED2" H 8350 5612 51  0000 C CNN
+F 1 "SK6812MINI" H 8350 5547 16  0000 C CNN
+F 2 "kbd:YS-SK6812MINI-E" H 8350 5350 60  0001 C CNN
+F 3 "" H 8350 5350 60  0001 C CNN
+	1    8350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keefighter-rescue:SK6812MINI-kbd LED1
+U 1 1 60526254
+P 9100 5350
+F 0 "LED1" H 9100 5612 51  0000 C CNN
+F 1 "SK6812MINI" H 9100 5547 16  0000 C CNN
+F 2 "kbd:YS-SK6812MINI-E" H 9100 5350 60  0001 C CNN
+F 3 "" H 9100 5350 60  0001 C CNN
+	1    9100 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keefighter-rescue:SK6812MINI-kbd LED0
+U 1 1 6052625A
+P 9850 5350
+F 0 "LED0" H 9850 5612 51  0000 C CNN
+F 1 "SK6812MINI" H 9850 5547 16  0000 C CNN
+F 2 "kbd:YS-SK6812MINI-E" H 9850 5350 60  0001 C CNN
+F 3 "" H 9850 5350 60  0001 C CNN
+	1    9850 5350
+	1    0    0    -1  
+$EndComp
+Text GLabel 10050 5650 2    50   Input ~ 0
+gnd
+Wire Wire Line
+	1800 5450 1800 5650
+Wire Wire Line
+	1800 5650 2550 5650
+Wire Wire Line
+	10050 5650 10050 5450
+Wire Wire Line
+	9300 5450 9300 5650
+Connection ~ 9300 5650
+Wire Wire Line
+	9300 5650 10050 5650
+Wire Wire Line
+	8550 5450 8550 5650
+Connection ~ 8550 5650
+Wire Wire Line
+	8550 5650 9300 5650
+Wire Wire Line
+	7800 5450 7800 5650
+Connection ~ 7800 5650
+Wire Wire Line
+	7800 5650 8550 5650
+Wire Wire Line
+	7050 5450 7050 5650
+Connection ~ 7050 5650
+Wire Wire Line
+	7050 5650 7800 5650
+Wire Wire Line
+	6300 5450 6300 5650
+Connection ~ 6300 5650
+Wire Wire Line
+	6300 5650 7050 5650
+Wire Wire Line
+	5550 5450 5550 5650
+Connection ~ 5550 5650
+Wire Wire Line
+	5550 5650 6300 5650
+Wire Wire Line
+	4800 5450 4800 5650
+Connection ~ 4800 5650
+Wire Wire Line
+	4800 5650 5550 5650
+Wire Wire Line
+	4050 5450 4050 5650
+Connection ~ 4050 5650
+Wire Wire Line
+	4050 5650 4800 5650
+Wire Wire Line
+	3300 5450 3300 5650
+Connection ~ 3300 5650
+Wire Wire Line
+	3300 5650 4050 5650
+Wire Wire Line
+	2550 5450 2550 5650
+Connection ~ 2550 5650
+Wire Wire Line
+	2550 5650 3300 5650
+Text GLabel 9650 5000 2    50   Input ~ 0
+vcc
+Wire Wire Line
+	1800 5250 2000 5250
+Wire Wire Line
+	2000 5250 2000 5450
+Wire Wire Line
+	2000 5450 2150 5450
+Wire Wire Line
+	2550 5250 2750 5250
+Wire Wire Line
+	2750 5250 2750 5450
+Wire Wire Line
+	2750 5450 2900 5450
+Wire Wire Line
+	3300 5250 3500 5250
+Wire Wire Line
+	3500 5250 3500 5450
+Wire Wire Line
+	3500 5450 3650 5450
+Wire Wire Line
+	4050 5250 4250 5250
+Wire Wire Line
+	4250 5250 4250 5450
+Wire Wire Line
+	4250 5450 4400 5450
+Wire Wire Line
+	4800 5250 5000 5250
+Wire Wire Line
+	5000 5250 5000 5450
+Wire Wire Line
+	5000 5450 5150 5450
+Wire Wire Line
+	5550 5250 5750 5250
+Wire Wire Line
+	5750 5250 5750 5450
+Wire Wire Line
+	5750 5450 5900 5450
+Wire Wire Line
+	6300 5250 6500 5250
+Wire Wire Line
+	6500 5250 6500 5450
+Wire Wire Line
+	6500 5450 6650 5450
+Wire Wire Line
+	7050 5250 7250 5250
+Wire Wire Line
+	7250 5250 7250 5450
+Wire Wire Line
+	7250 5450 7400 5450
+Wire Wire Line
+	7800 5250 8000 5250
+Wire Wire Line
+	8000 5250 8000 5450
+Wire Wire Line
+	8000 5450 8150 5450
+Wire Wire Line
+	8550 5250 8750 5250
+Wire Wire Line
+	8750 5250 8750 5450
+Wire Wire Line
+	8750 5450 8900 5450
+Wire Wire Line
+	9300 5250 9500 5250
+Wire Wire Line
+	9500 5250 9500 5450
+Wire Wire Line
+	9500 5450 9650 5450
+Text GLabel 10050 5250 2    50   Input ~ 0
+din
+Text GLabel 1850 2850 0    50   Input ~ 0
+din
+Wire Wire Line
+	1400 5000 2150 5000
+Wire Wire Line
+	9650 5000 9650 5250
+Wire Wire Line
+	8900 5000 8900 5250
+Connection ~ 8900 5000
+Wire Wire Line
+	8900 5000 9650 5000
+Wire Wire Line
+	8150 5000 8150 5250
+Connection ~ 8150 5000
+Wire Wire Line
+	8150 5000 8900 5000
+Wire Wire Line
+	7400 5250 7400 5000
+Connection ~ 7400 5000
+Wire Wire Line
+	7400 5000 8150 5000
+Wire Wire Line
+	6650 5250 6650 5000
+Connection ~ 6650 5000
+Wire Wire Line
+	6650 5000 7400 5000
+Wire Wire Line
+	5900 5250 5900 5000
+Connection ~ 5900 5000
+Wire Wire Line
+	5900 5000 6650 5000
+Wire Wire Line
+	5150 5250 5150 5000
+Connection ~ 5150 5000
+Wire Wire Line
+	5150 5000 5900 5000
+Wire Wire Line
+	4400 5250 4400 5000
+Connection ~ 4400 5000
+Wire Wire Line
+	4400 5000 5150 5000
+Wire Wire Line
+	3650 5250 3650 5000
+Connection ~ 3650 5000
+Wire Wire Line
+	3650 5000 4400 5000
+Wire Wire Line
+	2900 5250 2900 5000
+Connection ~ 2900 5000
+Wire Wire Line
+	2900 5000 3650 5000
+Wire Wire Line
+	2150 5250 2150 5000
+Connection ~ 2150 5000
+Wire Wire Line
+	2150 5000 2900 5000
+Wire Wire Line
+	1400 5250 1400 5000
+$Comp
+L keefighter-rescue:SW_PUSH-kbd SW9
+U 1 1 604847F8
+P 8350 2150
+F 0 "SW9" H 8350 2405 50  0000 C CNN
+F 1 "SW_PUSH" H 8350 2314 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 8350 2150 50  0001 C CNN
+F 3 "" H 8350 2150 50  0000 C CNN
+	1    8350 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1850 2450 0    50   Input ~ 0
+col0
+Text GLabel 3250 2750 2    50   Input ~ 0
+col5
+Connection ~ 5350 3850
+Connection ~ 5350 3150
+Connection ~ 5350 2450
+Wire Wire Line
+	4900 3850 5350 3850
+Wire Wire Line
+	4900 3150 5350 3150
+Wire Wire Line
+	4900 2450 5350 2450
+$Comp
+L Diode:1N4148 D2
+U 1 1 604793FB
+P 5350 3700
+F 0 "D2" H 5350 3916 50  0000 C CNN
+F 1 "1N4148" H 5350 3825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5350 3525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5350 3700 50  0001 C CNN
+	1    5350 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D1
+U 1 1 604737B4
+P 5350 3000
+F 0 "D1" H 5350 3216 50  0000 C CNN
+F 1 "1N4148" H 5350 3125 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5350 2825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5350 3000 50  0001 C CNN
+	1    5350 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D0
+U 1 1 6029A073
+P 5350 2300
+F 0 "D0" H 5350 2516 50  0000 C CNN
+F 1 "1N4148" H 5350 2425 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5350 2125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5350 2300 50  0001 C CNN
+	1    5350 2300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1850 1950 0    50   Input ~ 0
+gnd
+Text GLabel 1850 2050 0    50   Input ~ 0
+gnd
+Text GLabel 3250 1850 2    50   Input ~ 0
+gnd
+Text GLabel 3250 2050 2    50   Input ~ 0
+vcc
+$EndSCHEMATC

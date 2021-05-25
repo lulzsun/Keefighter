@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name kbd)(type Github)(uri https://github.com/foostan/kbd)(options "")(descr ""))
+  (lib (name "pro micro")(type Github)(uri https://github.com/sparkfun/SparkFun-KiCad-Libraries)(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri G:/Documents/keefighter/logo)(options "")(descr ""))
+)
