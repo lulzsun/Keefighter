@@ -1,4 +1,4 @@
-19266781667878203
+19276598444218599
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83160,6 +83160,13 @@ Stabilizer_MX_2u
 0
 0
 lib
+12401598E4#2A
+
+
+0
+28
+28
+lib
 ArduinoProMicro
 
 
@@ -83188,12 +83195,47 @@ ChocV1_V2_Hotswap_1.5u
 3
 2
 lib
+D3_TH_SMD_v2
+Resitance 3 pas
+R
+0
+4
+2
+lib
 D_MiniMELF_bsides
 Diode Mini-MELF (SOD-80)
 Diode Mini-MELF (SOD-80)
 0
 2
 2
+lib
+HRO-TYPE-C-31-M-12
+
+
+0
+16
+13
+lib
+HRO-TYPE-C-31-M-12-Assembly
+
+
+0
+16
+13
+lib
+HRO-TYPE-C-31-M-12-HandSoldering
+
+
+0
+16
+13
+lib
+HRO-TYPE-C-31-M-13
+
+
+0
+16
+13
 lib
 JOYSTICK
 
@@ -83258,13 +83300,6 @@ kailh,choc
 2
 2
 lib
-OSHW-Symbol_6.7x6mm_mask
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-lib
 PG1350_socket_smdLed
 Kailh "Choc" PG1350 keyswitch socket mount
 kailh,choc
@@ -83279,32 +83314,53 @@ ProMicroNiced
 26
 26
 lib
-Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM
+Reset_Pretty-Mask
+
+
+0
+6
+6
+lib
+SOT143B
+
+
+0
+4
+4
+lib
+USB_C_GCT_USB4085
 
 
 0
 20
-20
+17
 lib
-Seeeduino_XIAO-MOUDLE14P-2.54-21X17.8MM
+Wurth-632723300011
+
+
+0
+32
+27
+lib
+Wurth-632723300011-HandSoldering
+
+
+0
+30
+26
+lib
+Wurth-632723300011-MaximumExtensionMount
+
+
+0
+32
+27
+lib
+XDCR_COM-09032
 
 
 0
 14
-14
-lib
-Seeeduino_XIAO_dual
-
-
-0
-40
-20
-lib
-Seeeduino_XIAO_dual_tht
-
-
-0
-28
 14
 lib
 alps_sksn
@@ -83362,20 +83418,6 @@ pg1353_reversible_2u
 0
 6
 2
-lib
-switch_SSSS811101
-
-
-0
-7
-7
-lib
-trrs_5400174
-
-
-0
-5
-4
 usbc
 12401598E4#2A
 

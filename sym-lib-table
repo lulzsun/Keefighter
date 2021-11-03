@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Type-C)(type Legacy)(uri ${KIPRJMOD}/libs/Type-C.lib)(options "")(descr ""))
+  (lib (name Joystick)(type Legacy)(uri ${KIPRJMOD}/libs/COM-09032.lib)(options "")(descr ""))
 )
