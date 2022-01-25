@@ -1,5 +1,6 @@
 (fp_lib_table
-  (lib (name lib)(type KiCad)(uri ${KIPRJMOD}/libs)(options "")(descr ""))
-  (lib (name keyswitches)(type Github)(uri https://github.com/daprice/keyswitches.pretty)(options "")(descr ""))
-  (lib (name usbc)(type Github)(uri https://github.com/ai03-2725/Type-C.pretty)(options "")(descr ""))
+  (lib (name keyswitches)(type Github)(uri https://github.com/daprice/keyswitches.pretty)(options "")(descr "")(disabled))
+  (lib (name Kailh)(type KiCad)(uri ${KIPRJMOD}/Kailh.pretty)(options "")(descr ""))
+  (lib (name Type-C)(type KiCad)(uri ${KIPRJMOD}/Type-C.pretty)(options "")(descr ""))
+  (lib (name RP2040)(type KiCad)(uri ${KIPRJMOD}/RP2040.pretty)(options "")(descr ""))
 )
